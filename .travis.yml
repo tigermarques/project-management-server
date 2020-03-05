@@ -1,0 +1,10 @@
+sudo: false
+language: node_js
+node_js: 12
+branches:
+  only:
+    - master
+script:
+  - npm run lint
+after_success:
+  - npm run semantic-release
