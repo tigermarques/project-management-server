@@ -1,0 +1,33 @@
+{
+  "name": "project-management-server",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tigermarques/project-management-server.git"
+  },
+  "author": "João Marques <joao.gsilva.marques@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tigermarques/project-management-server/issues"
+  },
+  "homepage": "https://github.com/tigermarques/project-management-server#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.3",
+    "semantic-release": "^17.0.4",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
